@@ -1,0 +1,22 @@
+---
+import "@fontsource/lora/latin-500";
+import "@fontsource/lora/latin-400";
+import "@fontsource/lora/latin-700";
+import "@fontsource/lora/700";
+---
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <link rel="stylesheet" href="/styles/global.css" />
+        <meta name="generator" content={Astro.generator} />
+        <title>Hristo Roque</title>
+    </head>
+    <body class="bg-pale-white">
+        <div class="max-w-360 m-auto">
+            <slot />
+        </div>
+    </body>
+</html>
